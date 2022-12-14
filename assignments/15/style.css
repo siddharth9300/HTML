@@ -6,16 +6,18 @@
 }
 body{
   font-family: 'Poppins', sans-serif;
+  /* background: #cc8a33; */
+
 }
 .content{
-  height:100vh;
-  background: #cc8a33;
+  /* height:100vh; */
+  /* background: #cc8a33; */
   display: flex;
   /* justify-content: center;
   align-items:center; */
 }
 .navbar{
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 1rem;
   border-radius: 0px 0px 20px 20px;
   box-shadow: 0 5px 15px  rgba(190,220,250,0.15);
@@ -26,7 +28,8 @@ body{
   justify-content: center;
 }
 
-p{
+.navbar p{
+  margin: 0 1.5rem ;
   padding:.5rem 2rem;
   font-weight: bold;
   font-size: 18px;
@@ -36,30 +39,29 @@ p{
   cursor: pointer;
 }
  
-p span{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  margin-left: 7px;
-  border-radius: 50%;
-  background: rgba(152,172,248,0.2);
-  transition: all 0.15s ease-in;
-}
+
  
 p:hover{
   color: rgb(89, 117, 228);
   background: rgba(233, 207, 91, 0.76);
   border-radius: 20px;
+  text-decoration: underline;
   
-}
-p:hover span{
-  color: #fff;
-  background: #b088f9;
 }
 
 
 #logo{
     margin: 5px;
+}
+
+
+#welcome{
+  background-color: rgb(23, 77, 124);
+  z-index: 1;
+  background-image: url(./background-1.png);
+  display: flex;
+}
+
+#photo1{
+  margin-left: ;
 }
