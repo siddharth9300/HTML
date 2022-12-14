@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #212f6d;
+    font-family: sans-serif;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+ol{
+    display: block;
+margin:10px 8vw;
+/* display: flex; */
+/* justify-content: center; */
+list-style:decimal;
+
+}
+li {
+    margin: 1vh 0;
+    color:white;
+    font-size: 1.8rem;
+    
+}
+.points li{
+    margin: 1vh 1.5vw;
+    color:white;
+    font-size: 1.5rem;
+}
+li span{
+    margin: 1vh 0;
+    color:white;
+    font-size: 1.5rem;
+    
+}
+
+
+.typing-demo {
+    
+    margin: 10vh auto;
+    justify-content: center;
+    width: 37ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3em;
+    color: white;
+
+  }
+
+
+  .typing-demo-a {
+    
+    margin: 10vh auto;
+    justify-content: center;
+    width: 48ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: white;
+
+  }
+
+  .typing-demo  a{
+    color: rgb(191, 201, 148);
+}
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
