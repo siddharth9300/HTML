@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            scroll-behavior:smooth;
+        margin: 0;
+        padding: 0;
+        }
+        #main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        #head1,#head2,#head3 {
+           font-family: sans-serif;
+           
+            padding: 50vh 25vw 50vh 25vw;
+            text-decoration: none;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <d id="main"> -->
+
+        <div id="head1" style="background-color: antiquewhite;">Heading 1 <br>
+            <a href="#head3" >click to goto Heading 3</a>
+        </div>
+        <div id="head2" style="background-color: aqua;"> Heading 2<br>
+            <a href="#head1">click to goto Heading 1</a>
+        </div>
+        <div id="head3" style="background-color: bisque;"> Heading 3 <br>
+            <a href="#head2">click to goto Heading 2</a>
+        </div>
+        
+
+</html>
