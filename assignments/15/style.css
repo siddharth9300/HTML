@@ -1,67 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Poppins', sans-serif;
+
+body {
+  font-family: "Poppins", sans-serif;
   /* background: #cc8a33; */
 
 }
-.content{
+.content {
   /* height:100vh; */
   /* background: #cc8a33; */
   display: flex;
   /* justify-content: center;
   align-items:center; */
 }
-.navbar{
+.navbar {
   background: rgb(255, 255, 255);
   padding: 1rem;
-  border-radius: 0px 0px 20px 20px;
-  box-shadow: 0 5px 15px  rgba(190,220,250,0.15);
+  /* border-radius: 0px 0px 20px 20px; */
+  /* box-shadow: 0 5px 15px rgba(190, 220, 250, 0.15); */
   display: flex;
   position: relative;
   height: max-content;
   width: 100%;
   justify-content: center;
+  background-image: url(./head.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.navbar p{
-  margin: 0 1.5rem ;
-  padding:.5rem 2rem;
+.navbar p {
+  margin: 0 1.5rem;
+  padding: 0.5rem 2rem;
   font-weight: bold;
-  font-size: 18px;
-  display:flex;
+  font-size: 1.25rem;
+  display: flex;
   z-index: 1;
   transition: all 0.4s ease-in;
   cursor: pointer;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
- 
 
- 
-p:hover{
-  color: rgb(89, 117, 228);
-  background: rgba(233, 207, 91, 0.76);
-  border-radius: 20px;
+.navbar p:hover {
+  /* color: rgb(89, 117, 228);
+  background: rgba(233, 207, 91, 0.76); */
+  /* border-radius: 20px; */
   text-decoration: underline;
+}
+
+#logo {
+  margin: 5px;
+}
+
+#welcome {
+  /* background-color: rgb(23, 77, 124); */
+  /* z-index: 1; */
+  /* background-image: url(./background-1.png); */
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(./background.svg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+  /* background-size:contain; */
+  /* justify-content: right; */
+  /* position: absolute; */
+}
+.welcome-head {
+  /* margin: 5rem; */
+  padding: 1.5rem 5rem;
+  font-size: 6rem;
+  width: 50vw;
+  /* word-wrap: normal; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+#photo1 {
+  margin-right: 1.5rem;
+}
+
+.search-box {
+  margin: 0 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  /* word-wrap: normal; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(51, 50, 50);
+  /* width: 4rem; */
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.order-btn {
+  margin: 0 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  /* word-wrap: normal; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #f29f05;
+  /* width: min-content; */
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.order-btn:hover {
+  background-color: #fcab15;
+}
+
+.how-to ,.joun-us{
+  display: block;
+
+  
+}
+.how-to{
+  background-image: url(./background2.svg);
+  background-repeat:no-repeat;
+  background-size: 110vw;
+}
+.joun-us{
+  
+  background-image: url(./background2.svg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.how-head {
+  width: 60vw;
+  margin: 0 35vw;
+  font-size: 4rem;
+}
+.join-head{
+  width: 60vw;
+  margin: 0 33vw;
+  font-size: 4rem;
+}
+.items-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  justify-content: center;
+  margin: 1rem;
+}
+.item .big-p{
+  margin: 0 rem;
+  padding: 0.1rem;
+  font-size: 2rem;
+  /* word-wrap: normal; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(51, 50, 50);
+}
+.small-p{
+  margin: 0 2rem;
+  padding: 1rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  word-wrap: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgb(71, 69, 69);
+}
+
+.join-img{
+  width: 40vw;
+  height: 25vw;
+  border-radius: 10px;
   
 }
 
 
-#logo{
-    margin: 5px;
+
+
+
+
+
+
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-
-#welcome{
-  background-color: rgb(23, 77, 124);
-  z-index: 1;
-  background-image: url(./background-1.png);
-  display: flex;
+.layer1 {
+  background-image: url('./layer1.svg');
+}
+.layer2 {
+  background-image: url('./layer2.svg');
 }
 
-#photo1{
-  margin-left: ;
+.flip {
+  transform: rotate(180deg);
 }
