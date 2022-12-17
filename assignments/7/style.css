@@ -153,7 +153,7 @@ table {
   border: none;
 }
 label,
-input {
+input ,textarea{
   font-size: larger;
   border-radius: 5px;
 }
@@ -198,6 +198,7 @@ input {
   font-size: 18px;
   font-weight: 700;
 }
+
 .alignnone {
   width: 450px;
   height: 250px;

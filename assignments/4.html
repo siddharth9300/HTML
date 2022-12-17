@@ -1,133 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>4</title>
     <style>
-        td {
-            padding: 10px;
-        }
+      td {
+        padding: 10px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <form action="">
-        <table border="1" width="1000px">
-            <th colspan="2">
-                <h1>Registration Form</h1>
-            </th>
-            <tr>
-                <td>
-                    <label for="name">Student Name</label>
-                </td>
-                <td>
-                    <input type="name" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="fathername">Father Name</label>
-                </td>
-                <td>
-                    <input type="fathername" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="mothername">Mother Name</label>
-                </td>
-                <td>
-                    <input type="mothername" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="dob">Date of Birth</label>
-                </td>
-                <td>
-                    <input type="date" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="gender">Gender</label>
-                </td>
-                <td>
-                    Male<input type="radio" name="gender" value="male" required>
-                    Female<input type="radio" name="gender" value="female" required>
+      <table border="1" width="1000px">
+        <th colspan="2">
+          <h1>Registration Form</h1>
+        </th>
+        <tr>
+          <td>
+            <label for="name">Student Name</label>
+          </td>
+          <td>
+            <input type="name" name="name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="fathername">Father Name</label>
+          </td>
+          <td>
+            <input type="fathername" name="fathername" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="mothername">Mother Name</label>
+          </td>
+          <td>
+            <input type="mothername" name="mothername" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dob">Date of Birth</label>
+          </td>
+          <td>
+            <input type="date" name="dob" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender</label>
+          </td>
+          <td>
+            Male<input type="radio" name="gender" value="male" required />
+            Female<input type="radio" name="gender" value="female" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email ID</label>
+          </td>
+          <td>
+            <input type="email" name="email" required />
+          </td>
+        </tr>
 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="email">Email ID</label>
-                </td>
-                <td>
-                    <input type="email" required>
-                </td>
-            </tr>
+        <tr>
+          <td>
+            <label for="mobile">Mobile No.</label>
+          </td>
+          <td>
+            <input
+              type="tel"
+              id="mobile"
+              name="mobile"
+              pattern="[0-9]{10}"
+              required
+            />
+          </td>
+        </tr>
 
+        <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+          </td>
+        </tr>
 
+        <tr>
+          <td>
+            <label for="state">State</label>
+          </td>
+          <td>
+            <input type="text" name="state" required />
+          </td>
+        </tr>
 
+        <tr>
+          <td>
+            <label for="city">City</label>
+          </td>
+          <td>
+            <input type="text" name="city" required />
+          </td>
+        </tr>
 
-
-
-            <tr>
-                <td>
-                    <label for="mobile">Mobile No.</label>
-                </td>
-                <td>
-                    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
-                </td>
-            </tr>
-            <tr>
-            <tr>
-                <td>
-                    <label for="address">Address</label>
-                </td>
-                <td>
-                    <textarea name="address" id="address" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-
-            <tr>
-            <tr>
-                <td>
-                    <label for="state">State</label>
-                </td>
-                <td>
-                    <input type="text" required>
-                </td>
-            </tr>
-            <tr>
-            <tr>
-            <tr>
-                <td>
-                    <label for="city">City</label>
-                </td>
-                <td>
-                    <input type="text" required>
-                </td>
-            </tr>
-            <tr>
-
-            <tr>
-                <td>
-                    <!-- <label for="mobile">Email ID</label> -->
-                </td>
-                <td>
-                    <input type="submit">
-                </td>
-            </tr>
-            <tr>
-
-        </table>
-
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" />
+          </td>
+        </tr>
+      </table>
     </form>
-</body>
-
+  </body>
 </html>

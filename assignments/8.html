@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8</title>
+    <style>
+        .admission {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+          }
+          td,
+          th {
+            padding: 10px;
+            border: none;
+          }
+          table {
+            border: none;
+          }
+          label,
+          input ,textarea{
+            font-size: larger;
+            border-radius: 5px;
+          }
+    </style>
+</head>
+<!-- <link rel="stylesheet" href="style.css"> -->
+<body style="background-color: rgb(235, 219, 179);">
+  <div class="admission">
+    <form action="">
+      <table border="1" width="1000px">
+        <th colspan="2">
+          <h1>Admission Form</h1>
+        </th>
+        <tr>
+            <td>
+              <label for="name">Student Name</label>
+            </td>
+            <td>
+              <input type="name" name="name" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="fathername">Father Name</label>
+            </td>
+            <td>
+              <input type="fathername" name="fathername" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mothername">Mother Name</label>
+            </td>
+            <td>
+              <input type="mothername" name="mothername" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="dob">Date of Birth</label>
+            </td>
+            <td>
+              <input type="date" name="dob" required />
+            </td>
+          </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender</label>
+          </td>
+          <td>
+            Male<input type="radio" name="gender" value="male" required>
+            Female<input type="radio" name="gender" value="female" required>
+          </td>
+        </tr>
+        <tr>
+            <td>
+              <label for="email">Email ID</label>
+            </td>
+            <td>
+              <input type="email" name="email" required />
+            </td>
+          </tr>
+        <tr>
+          <td>
+            <label for="mobile">Mobile No.</label>
+          </td>
+          <td>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+          </td>
+        </tr>
+
+            <tr>
+                <td>
+                  <label for="state">State</label>
+                </td>
+                <td>
+                  <input type="text" name="state" required />
+                </td>
+              </tr>
+      
+              <tr>
+                <td>
+                  <label for="city">City</label>
+                </td>
+                <td>
+                  <input type="text" name="city" required />
+                </td>
+              </tr>
+    
+          <!----- Qualification---------------------------------------------------------->
+        <!-- <tr>
+          <td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+          <td>
+            <table>
+              <tr>
+                <td align="center"><b>Sl.No.</b></td>
+                <td align="center"><b>Examination</b></td>
+                <td align="center"><b>Board</b></td>
+                <td align="center"><b>Percentage</b></td>
+                <td align="center"><b>Year of Passing</b></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+                <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+                <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+                <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+                <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td align="center">(10 char max)</td>
+                <td align="center">(upto 2 decimal)</td>
+              </tr>
+            </table>
+          </td>
+        </tr> -->
+        <!----- Course ---------------------------------------------------------->
+
+          <td>
+            <label for="course">COURSES APPLIED FOR</label>
+          </td>
+          <td>
+            BCA<input type="radio" name="gender" value="BCA" required>
+            MCA<input type="radio" name="gender" value="MCA" required>
+            IIMCA<input type="radio" name="gender" value="IIMCA" required>
+            <!-- Female<input type="radio" name="gender" value="female" required> -->
+          </td>
+        </tr>
+        <!----- Submit and Reset ------------------------------------------------->
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+
+
+</body>
+</html>

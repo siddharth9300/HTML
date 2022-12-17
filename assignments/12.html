@@ -7,40 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>12</title>
     <style>
-        *{
-            scroll-behavior:smooth;
-        margin: 0;
-        padding: 0;
-        }
-        #main{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
+        * {
+            scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
         }
 
-        #head1,#head2,#head3 {
-           font-family: sans-serif;
-           
+
+        .head {
             padding: 50vh 25vw 50vh 25vw;
             text-decoration: none;
             font-size: 50px;
+            background-color: antiquewhite;
+        }
+
+        #head2 {
+            background-color: aqua;
+        }
+
+        nav {
+            background-color: rgb(41, 224, 148);
+            ;
+            position: fixed;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+        }
+
+        nav a {
+            font-size: 30px;
+            margin: 30px 100px;
         }
     </style>
 </head>
 
 <body>
-    <!-- <d id="main"> -->
+    <nav>
+        <a href="#head1">Heading 1</a>
+        <a href="#head2">Heading 2</a>
+        <a href="#head3">Heading 3</a>
 
-        <div id="head1" style="background-color: antiquewhite;">Heading 1 <br>
-            <a href="#head3" >click to goto Heading 3</a>
-        </div>
-        <div id="head2" style="background-color: aqua;"> Heading 2<br>
-            <a href="#head1">click to goto Heading 1</a>
-        </div>
-        <div id="head3" style="background-color: bisque;"> Heading 3 <br>
-            <a href="#head2">click to goto Heading 2</a>
-        </div>
-        
+    </nav>
+    <div id="head1" class="head">Heading 1 <br>
+        <a href="#head3">click to goto Heading 3</a>
+    </div>
+    <div id="head2" class="head"> Heading 2<br>
+        <a href="#head1">click to goto Heading 1</a>
+    </div>
+    <div id="head3" class="head"> Heading 3 <br>
+        <a href="#head2">click to goto Heading 2</a>
+    </div>
+</body>
 
 </html>
