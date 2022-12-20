@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .main {
   position: absolute;
 display: flex;
@@ -18,28 +17,23 @@ display: flex;
   height: 30px;
   z-index: 1;
   position: absolute;
- /* background-color: rgba(26, 90, 90, 0.671); */ 
   top: 160px;
   left: 70px;
 }
-
 #cpu {
   padding-left: 2px;
   width: 110px;
   height: 30px;
   z-index: 1;
   position: absolute;
-  /* background-color: rgba(26, 90, 90, 0.671); */
   top: 15px;
   left: 270px;
 }
-
 #cu {
     width: 150px;
     height: 35px;
   z-index: 1;
   position: absolute;
-  /* background-color: rgba(26, 90, 90, 0.671); */
   top: 75px;
   left: 260px;
 }
@@ -48,7 +42,6 @@ display: flex;
   height: 70px;
   z-index: 1;
   position: absolute;
-  /* background-color: rgba(26, 90, 90, 0.671); */
   top: 140px;
   left: 258px;
 }
@@ -57,23 +50,18 @@ display: flex;
   height: 35px;
   z-index: 1;
   position: absolute;
-  /* background-color: rgba(26, 90, 90, 0.671); */
   top: 240px;
   left: 258px;
 }
-
 #output {
   padding-left: 2px;
   width: 110px;
   height: 30px;
   z-index: 1;
   position: absolute;
-  /* background-color: rgba(26, 90, 90, 0.671); */
   top: 155px;
   left: 475px;
 }
-
-
 .area{
     margin: 5rem 2rem;
     padding: 1rem;
@@ -84,8 +72,6 @@ display: flex;
     word-wrap: break-word;
     border-radius: 10px;
 }
-
-
 ul, ol {
     margin: 0 0 1.5em 3em;
     font-size: 22px;

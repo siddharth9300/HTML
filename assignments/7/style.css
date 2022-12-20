@@ -4,7 +4,6 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
-
 frame {
   border-width: none;
 }
@@ -25,16 +24,13 @@ frame {
   display: flex;
   justify-content: center;
 }
-
 #footer-bottom-text p {
   color: white;
   padding-left: 20px;
 }
 #footer-bottom-text a {
   color: white;
-  /* padding-left: 10px; */
 }
-
 .nav-item {
   color: white;
   margin: auto 3rem;
@@ -43,7 +39,6 @@ frame {
   display: flex;
   justify-content: center;
 }
-
 .nav-item:hover {
   background-color: #e8c4c4;
   border-radius: 10px;
@@ -54,65 +49,6 @@ frame {
 .nav {
   background-color: #16213e;
 }
-
-/* 
-.content{
-  height:100vh;
-  background: #cc8a33;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-}
-.navbar{
-  background: #fff;
-  padding: 1rem;
-  border-radius: 0px 0px 20px 20px;
-  box-shadow: 0 5px 15px  rgba(190,220,250,0.15);
-  display: flex;
-  position: relative;
-  height: max-content;
-  width: 100%;
-  justify-content: center;
-}
-
-.navbar p{
-  padding:.5rem 2rem;
-  font-weight: bold;
-  font-size: 18px;
-  display:flex;
-  z-index: 1;
-  transition: all 0.4s ease-in;
-  cursor: pointer;
-}
- 
-
- 
-p:hover{
-  color: rgb(89, 117, 228);
-  background: rgba(233, 207, 91, 0.76);
-  border-radius: 20px;
-  
-}
-p:hover span{
-  color: #fff;
-  background: #b088f9;
-}
-
-
-#logo{
-    margin: 5px;
-}
- */
-
-
-
-
-
-
-
-
-
-
 nav,
 .menu,
 #footer-bottom-text {
@@ -133,12 +69,10 @@ marquee a:hover {
   color: #e8c4c4;
   transition: 0.5s;
 }
-
 .canpus {
   display: flex;
   justify-content: center;
 }
-
 .admission {
   margin-top: 20px;
   display: flex;
@@ -198,7 +132,6 @@ input ,textarea{
   font-size: 18px;
   font-weight: 700;
 }
-
 .alignnone {
   width: 450px;
   height: 250px;
