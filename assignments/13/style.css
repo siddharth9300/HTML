@@ -4,24 +4,24 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins", sans-serif;
+  background: #e7e7e7;
+}
+#photo1 {
+  margin-top: 10px;
+  margin-right: 1.5rem;
 }
 .content {
   display: flex;
 }
 .navbar {
-  background: rgb(255, 255, 255);
   padding: 1rem;
   display: flex;
   position: relative;
   height: max-content;
   width: 100%;
   justify-content: center;
-  background-image: url(./head.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .navbar p {
   margin: 0 1.5rem;
@@ -32,7 +32,7 @@ body {
   z-index: 1;
   transition: all 0.4s ease-in;
   cursor: pointer;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
 }
 .navbar p:hover {
@@ -44,17 +44,14 @@ body {
 #welcome {
   display: flex;
   flex-wrap: wrap;
-  background-image: url(./background.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .welcome-head {
   padding: 1.5rem 5rem;
-  font-size: 6rem;
+  font-size: 4rem;
   width: 50vw;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 #photo1 {
   margin-right: 1.5rem;
@@ -83,39 +80,19 @@ body {
 .order-btn:hover {
   background-color: #fcab15;
 }
-.how-to,
-.joun-us {
-  display: block;
-}
-.how-to {
-  background-image: url(./background2.svg);
-  background-repeat: no-repeat;
-  background-size: 110vw;
-}
-.joun-us {
-  background-image: url(./background2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.how-head {
-  width: 60vw;
-  margin: 0 35vw;
-  font-size: 4rem;
-}
-.join-head {
-  width: 60vw;
-  margin: 0 33vw;
-  font-size: 4rem;
-}
-.items-row {
+.items-row ,.icon{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 .item {
+  width: 25vw;
   justify-content: center;
   margin: 1rem;
+}
+.cover{
+  width: 25rem;
 }
 .item .big-p {
   margin: 0 rem;
@@ -123,7 +100,7 @@ body {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: rgb(51, 50, 50);
+  color: rgb(226, 226, 226);
 }
 .small-p {
   margin: 0 2rem;
@@ -133,12 +110,24 @@ body {
   word-wrap: normal;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: rgb(71, 69, 69);
+  color: rgb(228, 228, 228);
 }
 .join-img {
   width: 40vw;
   height: 25vw;
   border-radius: 10px;
+} 
+.how-to{
+  margin-top: 100px;
+  background-color: rgb(69, 75, 75);
+  display: block;
+}
+.how-head {
+  color: rgb(255, 255, 255);
+  width: 60vw;
+  padding: 2rem 0 2rem 0;
+  margin: 0px 40vw;
+  font-size: 4rem;
 }
 .footer {
   padding: 40px 0;
@@ -152,7 +141,7 @@ a {
   text-align: center;
   font-size: 1rem;
   font-family: monospace;
-  color: #ffffff;
+  color: #020101;
 }
 .footer .tag {
   margin-top: 15px;
